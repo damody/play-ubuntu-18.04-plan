@@ -25,7 +25,7 @@ oh_my_zsh_conf_profile () {
 	echo "cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc"
 	cp "$HOME/.oh-my-zsh/templates/zshrc.zsh-template" "$HOME/.zshrc"
 
-	sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="candy-fix"/g' "$HOME/.zshrc"
+	sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="ys"/g' "$HOME/.zshrc"
 
 
 }
