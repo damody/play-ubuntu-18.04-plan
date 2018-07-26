@@ -2,7 +2,7 @@
 apt install curl -y
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
-cargo install rg
+cargo install ripgrep
 cargo install exa
 cargo install fd-find
 cp -ar prototype/.bashrc ~/.bashrc
