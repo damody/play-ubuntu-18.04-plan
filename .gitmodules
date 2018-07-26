@@ -1,0 +1,3 @@
+[submodule "prototype/shell-basic/terminal-color-theme"]
+	path = prototype/shell-basic/terminal-color-theme
+	url = https://github.com/sonatard/terminal-color-theme.git
