@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install curl -y
+sudo apt install curl -y
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
 cargo install ripgrep
